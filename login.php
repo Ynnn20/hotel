@@ -49,7 +49,7 @@
             if ($_SESSION['user_role'] == 'admin') {
                 header("Location: hotel.php");
             } else {
-                header("Location: index.php");
+                header("Location: user/index.php");
             }
             exit();
         } else {
